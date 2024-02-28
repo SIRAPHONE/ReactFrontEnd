@@ -1,10 +1,19 @@
-function Hello({name}) {
+const Hello = ({message, name}) => {
+    console.log({message,name})
     return (
-      <div className="Hello">
-        <h1>Hello World {name}</h1>
-        {/* <h1>Hello</h1> */}
-      </div>
-    );
-  }
-  
-  export default Hello
+        <div>
+            <h1>
+                {message} {name}
+            </h1>
+        </div>
+    )
+}
+
+import PropTypes from 'prop-types'
+
+Hello.PropTypes = {
+    message: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired
+}
+
+export default Hello
