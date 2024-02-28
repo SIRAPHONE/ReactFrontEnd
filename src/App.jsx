@@ -1,10 +1,10 @@
-import Hello from "./assets/hello";
+import Hello from "./assets/Hello";
 
 function App () {
   return (
     <div className="App">
-      <Hello/>
-      <Hello/>
+      <Hello nane = "Bob"/>
+      <Hello nane = "Tom"/>
     </div>
   );
 }
