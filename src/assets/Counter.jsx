@@ -11,8 +11,8 @@ export default function Contact() {
     return(
         <div>
             <h1>Count value is: {count}</h1>
-            <button>{increment}>increment</button>
-            <button>{decrement}>decrement</button>
+            <button onClick={increment}>increment</button>
+            <button onClick={decrement}>decrement</button>
         </div>
     );
 }
