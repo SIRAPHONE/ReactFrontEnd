@@ -1,7 +1,12 @@
-function App() {
+import Hello from "./assets/hello";
+
+function App () {
   return (
-      <h1>Hello World</h1>
-  )
+    <div className="App">
+      <Hello/>
+      <Hello/>
+    </div>
+  );
 }
 
 export default App
