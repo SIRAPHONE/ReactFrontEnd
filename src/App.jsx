@@ -1,5 +1,6 @@
 import Hello from './assets/Hello'
 import Contact from './assets/Contact'
+import Counter from './assets/Counter'
 
 function App () {
 const helloData = [
